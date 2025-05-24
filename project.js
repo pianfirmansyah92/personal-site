@@ -1,6 +1,10 @@
 const projects = {
   sikepo: {
-    title: "SIKePO by OJK",
+    name: "SIKePO",
+    title: "SIKePO – Regulation Access Mobile App by OJK",
+    description: "Mobile version of the OJK regulation archive platform to simplify search and accessibility.",
+    ogImage: "images/portfolio/img-cover-sikepo.jpg",
+    url: baseUrl + "portfolio-detail.html?id=sikepo",
     category: "UI UX Design – Government - Radya Labs",
     coverImage: "images/portfolio/img-cover-sikepo.jpg",
     coverAlt: "Cover image of SIKePO mobile regulation app",
@@ -50,8 +54,12 @@ const projects = {
    captionText: "View Study Case Design",
    captionLink: "https://www.behance.net/gallery/198057615/SIKePO-Sistem-Informasi-Ketentuan-Perbankan-Online"
   },  
-  eZDealer: {
-    title: "APL - eZDealer",
+  ezdealer: {
+    name: "APL - eZDealer",
+    title: "eZDealer – Distributor Management Platform for APL",
+    description: "A platform that enables stock management, order processing, and real-time reporting across APL's distributor network.",
+    ogImage: "images/portfolio/img-cover-eZDealer.jpg",
+    url: baseUrl + "portfolio-detail.html?id=ezdealer",
     category: "Product Planning – Distribution - Radya Labs",
     coverImage: "images/portfolio/img-cover-eZDealer.jpg",
     coverAlt: "Cover image of APL eZDealer app",
@@ -86,8 +94,12 @@ const projects = {
       { src: "images/ic_chart.svg", title: "Dashboard & Report" }
     ]
   },  
-  covidSystem: {
-    title: "Covid Lab System",
+  covidsystem: {
+    name: "Covid Lab System",    
+    title: "Covid Lab System – Healthcare Covid Detection by Bumame",
+    description: "Custom internal platform designed to manage COVID-19 patient testing workflows for Bumame Health",
+    ogImage: "images/portfolio/img-cover-covidSystem.jpg",
+    url: baseUrl + "portfolio-detail.html?id=covidsystem",
     category: "Product Planning – Healthcare - Radya Labs",
     coverImage: "images/portfolio/img-cover-covidSystem.jpg",
     coverAlt: "Cover image of Covid Lab System app",
@@ -122,8 +134,12 @@ const projects = {
       { src: "images/ic_chart.svg", title: "Dashboard & Report" }
     ]
   },  
-  yukBid: {
-    title: "YukBid",
+  yukbid: {
+    name: "YukBid",
+    title: "YukBid – Buy, Sell and Bidding products in real time ",
+    description: "e-commerce platform combining traditional marketplace functionality with live-streamed auctions",
+    ogImage: "images/portfolio/img-cover-yukbid.jpg",
+    url: baseUrl + "portfolio-detail.html?id=yukbid",
     category: "Web & Mobile Development – Ecommerce - Freelance",
     coverImage: "images/portfolio/img-cover-yukbid.jpg",
     coverAlt: "Cover image of YukBid app",
@@ -161,8 +177,12 @@ const projects = {
       { src: "images/ic_billing.svg", title: "Billing" }
     ]
   },  
-  anterAja: {
-    title: "Anter Aja Revamp",
+  anteraja: {
+    name: "Anter Aja Revamp",    
+    title: "Anter Aja – Delivery, Tracking, and Home pickup services",
+    description: "logistics service provider in Indonesia offering delivery, tracking, and home pickup services",
+    ogImage: "images/portfolio/img-cover-anteraja.jpg",
+    url: baseUrl + "portfolio-detail.html?id=anteraja",
     category: "UI UX Design – FMCG & Logistic - Radya Labs",
     coverImage: "images/portfolio/img-cover-anteraja.jpg",
     coverAlt: "Cover image of anteraja app",
@@ -213,8 +233,12 @@ const projects = {
   //  captionText: "View Study Case Design",
   //  captionLink: "https://www.behance.net/gallery/198057615/SIKePO-Sistem-Informasi-Ketentuan-Perbankan-Online"
   },  
-  radyaDigital: {
-    title: "Radya Digital Revamp",
+  radyadigital: {
+    name: "Radya Digital Revamp",
+    title: "Radya Digital – Digital Transformation Partner",
+    description: "Web Company Profile focused as a partner to help organization transform their operational to digital system",
+    ogImage: "images/portfolio/img-cover-radya.jpg",
+    url: baseUrl + "portfolio-detail.html?id=radyadigital",
     category: "Web & Mobile Development – Company Profile - Radya Labs",
     coverImage: "images/portfolio/img-cover-radya.jpg",
     coverAlt: "Cover image of Radya Digital Web Compro",
@@ -247,44 +271,12 @@ const projects = {
       { src: "images/ic_news.svg", title: "Blog Management" }
     ]
   },  
-  eZDealer: {
-    title: "APL - eZDealer",
-    category: "Product Planning – Distribution - Radya Labs",
-    coverImage: "images/portfolio/img-cover-eZDealer.jpg",
-    coverAlt: "Cover image of APL eZDealer app",
-    year: "2024",
-    duration: "3 Bulan",
-    client: "APL",
-    overview: "eZDealer is a streamlined Distributor Management System developed for APL to help their distributors manage stock, warehouse operations, purchase orders (PO), invoicing, and reporting. The platform aimed to centralize distributor activities, standardize processes, and enable real-time operational visibility for APL.",
-    problem: "APL needed a dedicated system for distributors to manage their daily operations more efficiently. Existing processes were fragmented across spreadsheets and manual reporting, leading to delayed data visibility, operational errors, and decision-making challenges.",
-    approachList: [
-      "Conducted requirements workshops with APL’s internal teams and key distributor representatives to map end-to-end distributor workflows.",
-      "Focused initial MVP scope on critical modules: stock management, PO creation, invoicing, and real-time activity reporting.",
-      "Adopted an agile delivery model with short iterations and regular reviews to adapt quickly to evolving needs.",
-      "Ensured real-time data synchronization between distributor activities and APL’s central systems to improve transaction monitoring."
-    ],
-    decisionList: [
-      "Scope Management: Simplified system features for faster delivery, focusing on operational essentials rather than complex customizations.",
-      "User Access Control: Implemented role-based access to segregate distributor users from principal users, improving system security and data clarity.",
-      "Integration Strategy: When facing distributor resistance to adopting the new platform due to existing internal systems, we solved the problem by adding file upload/download features and API integration, so their data could still be connected without forcing them to change tools."
-    ],
-    reflection: "The system had to be delivered under time pressure, so I emphasized regression testing and stood by during launch to hotfix blockers in production. While not ideal, this helped ensure system continuity in a critical use case.",
-    roleTitle: "Product Manager",
-    roleList: [
-      "Led product definition, roadmap planning, and end-to-end delivery of the eZDealer platform.",
-      "Collaborated closely with APL stakeholders to gather operational requirements and translate them into prioritized product backlogs.",
-      "Worked alongside designers, developers, and QA teams to ensure fast, scalable, and user-friendly system development.",
-      "Facilitated sprint planning, backlog grooming, and stakeholder demos to maintain project alignment and transparency."
-    ],
-    features: [
-      { src: "images/ic_tagg.svg", title: "Stock Management" },
-      { src: "images/ic_sales.svg", title: "Purchase & Sale Order" },
-      { src: "images/ic_package.svg", title: "Product Management" },
-      { src: "images/ic_chart.svg", title: "Dashboard & Report" }
-    ]
-  },  
-  dmsSfa: {
-    title: "DMS + SFA ",
+  dmssfa: {
+    name: "DMS + SFA ",
+    title: "DMS + SFA – Digital Product for Distribution & Workforce by Radya Labs",
+    description: "Comprehensive solution designed to optimize end-user entire distribution process",
+    ogImage: "images/portfolio/img-cover-dmsSfa.jpg",
+    url: baseUrl + "portfolio-detail.html?id=dmssfa",
     category: "Product Planning – Distribution - Radya Labs",
     coverImage: "images/portfolio/img-cover-dmsSfa.jpg",
     coverAlt: "Cover image of DMS SFA app",
