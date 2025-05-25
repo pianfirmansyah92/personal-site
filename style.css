@@ -1475,6 +1475,11 @@ h1, h2, h3,h4, h5, h6{
 		left: 30%;
 		transform: skew(20deg, 0);
 	}
+	.card-default.long::before{
+		width: 25%;
+		left: 35%;
+		transform: skew(15deg, 0);
+	}
 }
 
 .card-default.red h3,
