@@ -88,9 +88,9 @@ const projects = {
       "Facilitated sprint planning, backlog grooming, and stakeholder demos to maintain project alignment and transparency."
     ],
     features: [
-      { src: "images/ic_news.svg", title: "Stock Management" },
-      { src: "images/ic_srch.svg", title: "Purchase & Sale Order" },
-      { src: "images/ic_tagg.svg", title: "Product Management" },
+      { src: "images/ic_package.svg", title: "Stock Management" },
+      { src: "images/ic_sales.svg", title: "Purchase & Sale Order" },
+      { src: "images/ic_rewards.svg", title: "Product Management" },
       { src: "images/ic_chart.svg", title: "Dashboard & Report" }
     ]
   },  
@@ -128,9 +128,9 @@ const projects = {
       "Managed UI/UX coordination to deliver intuitive user experience for medical Staff."
     ],
     features: [
-      { src: "images/ic_news.svg", title: "Stock Management" },
-      { src: "images/ic_srch.svg", title: "Purchase & Sale Order" },
-      { src: "images/ic_tagg.svg", title: "Product Management" },
+      { src: "images/ic_srch.svg", title: "Sample Tracking" },
+      { src: "images/ic_tagg.svg", title: "Auto Detect Covid" },
+      { src: "images/ic_services.svg", title: "Patient Check-in" },
       { src: "images/ic_chart.svg", title: "Dashboard & Report" }
     ]
   },  
@@ -303,10 +303,10 @@ const projects = {
       "(Data Dummy Nomor 3)"
     ],
     features: [
-      { src: "images/ic_news.svg", title: "Dashboard & Reporting" },
-      { src: "images/ic_srch.svg", title: "Sales & Distribution" },
-      { src: "images/ic_tagg.svg", title: "Stock Management" },
-      { src: "images/ic_chart.svg", title: "Cashier Management" }
+      { src: "images/ic_chart.svg", title: "Dashboard & Reporting" },
+      { src: "images/ic_sales.svg", title: "Sales & Distribution" },
+      { src: "images/ic_package.svg", title: "Stock Management" },
+      { src: "images/ic_cashier.svg", title: "Cashier Management" }
     ]
   }
   // Add more projects here (ezdealer, covidlab, etc)
