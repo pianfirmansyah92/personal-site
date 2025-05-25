@@ -248,21 +248,27 @@ const projects = {
     overview: "Radya Labs Company envisions itself as a digital transformation partner. Rebranding is deemed necessary for a company that originated in 2011 as a mobile app services provider and has since evolved to offer a diverse range of services. These services include app development for mobile and web, chatbot development, managed services, DevOps, quality assurance, and in-house training. Radya Labs has officially changed the name of its software company to Radya digitaL and has also established several new companies within the Radya ecosystem.",
     problem: "At the end of 2019, Radya Labs planned to rebrand its company logo, website, and company profile. The rebranding aimed to showcase a diverse range of services with a focus on three main offerings: App Development, Chatbot Development, and Managed Services.",
     approachList: [
-      "(Data Dummy Nomor 1)",
-      "(Data Dummy Nomor 2)",
-      "(Data Dummy Nomor 3)"
+      "Audited internal service workflows from delivery, operations, and resource planning teams.",
+      "Identified common bottlenecks in task visibility, assignment clarity, and reporting consistency.",
+      "Developed internal web-based tools for service tracking, certificate generation, and operational dashboards.",
+      "Delivered updates iteratively, starting from MVPs to full automation of manual tracking.",
+      "Designed with a shared UI system to streamline front-end implementation across tools."
     ],
     decisionList: [
-      "(Data Dummy Nomor 1)",
-      "(Data Dummy Nomor 2)",
-      "(Data Dummy Nomor 3)"
+      "Centralized service request and task tracking into a single interface, replacing multiple spreadsheets.",
+      "Introduced status indicators and progress tracking to help teams coordinate work without meetings.",
+      "Implemented audit logs and report export features to satisfy compliance and handover requirements.",
+      "Decided to re-use component patterns to keep the UI lean and reduce training time for users.",
+      "Integrated Google Workspace forms/data where appropriate to support lightweight workflows."
     ],
     reflection: "The system had to be delivered under time pressure, so I emphasized regression testing and stood by during launch to hotfix blockers in production. While not ideal, this helped ensure system continuity in a critical use case.",
     roleTitle: "Product Manager",
     roleList: [      
-      "(Data Dummy Nomor 1)",
-      "(Data Dummy Nomor 2)",
-      "(Data Dummy Nomor 3)"
+      "Served as Product Owner for Radya Digital’s internal systems, collaborating with multiple operational teams.",
+      "Gathered requirements through direct interviews and field observations.",
+      "Translated needs into backlog items, and worked with developers to plan and test deliveries.",
+      "Built low-fidelity prototypes and supported UI decisions to match actual workflows.",
+      "Maintained clear documentation to ensure scalability for future feature updates."
     ],
     features: [
       { src: "images/ic_services.svg", title: "Services Management" },
@@ -286,21 +292,27 @@ const projects = {
     overview: "DMS & SFA Cloud is a comprehensive solution designed to optimize end-user entire distribution process. From inventory management to cash settlement, it empowers you to efficiently control stock levels, manage sales and orders, track customer payments, and oversee your sales force or couriers in real time with a dedicated mobile app, you gain seamless monitoring and enhanced operational visibility, ensuring a streamlined and data-driven distribution network.",
     problem: "After successfully completing a project that helped end-users manage their distribution more efficiently, Inspired by this success, we set out to transform the solution into a scalable SaaS product one that continuously supports businesses facing similar operational challenges.",
     approachList: [
-      "(Data Dummy Nomor 1)",
-      "(Data Dummy Nomor 2)",
-      "(Data Dummy Nomor 3)"
+      "Defined end-to-end distribution operations by mapping workflows from clients and internal teams.",
+      "Consolidated legacy features and workflows into a modular, cloud-based DMS platform.",
+      "Introduced SFA (Sales Force Automation) to complement DMS by tracking field sales activities.",
+      "Led the delivery in phases: core DMS modules first (PO, stock, invoice), followed by SFA features like customer visits and sales tracking.",
+      "Collaborated closely with distributors and internal business units to validate usability across roles."
     ],
     decisionList: [
-      "(Data Dummy Nomor 1)",
-      "(Data Dummy Nomor 2)",
-      "(Data Dummy Nomor 3)"
+      "Unifying DMS and SFA into one platform improved reporting accuracy and user adoption.",
+      "Standardized user flows for ordering, stock, and invoicing to accelerate onboarding across distributors.",
+      "Integrated real-time activity tracking from SFA to feed into centralized DMS reporting.",
+      "Decided to support hybrid infrastructure (cloud with on-premise options) to meet enterprise compliance needs.",
+      "Prioritized mobile accessibility for SFA to support field sales reps without needing full desktop access."
     ],
     reflection: "The system had to be delivered under time pressure, so I emphasized regression testing and stood by during launch to hotfix blockers in production. While not ideal, this helped ensure system continuity in a critical use case.",
     roleTitle: "Product Manager",
     roleList: [
-      "(Data Dummy Nomor 1)",
-      "(Data Dummy Nomor 2)",
-      "(Data Dummy Nomor 3)"
+      "Acted as Product Manager, overseeing both DMS Cloud and SFA from planning to deployment.",
+      "Defined product vision, roadmap, and backlog based on business priorities and user insights.",
+      "Coordinated with cross-functional teams including developers, UI/UX designers, and client stakeholders.",
+      "Designed user flow wireframes and supported UX design reviews to ensure consistency.",
+      "Facilitated user acceptance testing (UAT) and post-launch support across multiple distributors."
     ],
     features: [
       { src: "images/ic_chart.svg", title: "Dashboard & Reporting" },
