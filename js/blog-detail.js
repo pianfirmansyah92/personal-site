@@ -44,7 +44,8 @@ const bodyEl = document.getElementById('blog-body');
 
 const pageTitle = document.getElementById('page-title');
 const metaDescription = document.getElementById('meta-description');
-const blogContainer = document.getElementById('blog-content');
+const blogContainer = document.getElementById('blog-not-found');
+const container = document.getElementById("blog-container");
 
 if (blogPost) {
   // Fill data into existing DOM
@@ -72,12 +73,16 @@ if (blogPost) {
   document.getElementById("twitter-image").setAttribute("content", blogPost.cover);
 
 } else {
+  // Hide the main project content
+  container.style.display = "none";
+  blogContainer.style.display = "flex";
+
   // Not found
   blogContainer.innerHTML = `
-    <div class="not-found">
-      <h2>Blog post not found</h2>
-      <p>The article you’re looking for doesn’t exist or the link is broken.</p>
-      <a href="blog.html" class="btn">Back to Blog</a>
+    <div class="box-notfound mb-5">
+        <h3>Oops! Blog Not Found</h3>
+        <p class="mb-4 text-center">It looks like the blog you're trying to view doesn't exist or has been moved.</p>
+        <a href="blog.html" class="btn btn_grad grad-dark hover-effect">Back to Blog</a>
     </div>
   `;
   pageTitle.textContent = `Not Found | Blog – Pian`;
