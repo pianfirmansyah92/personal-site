@@ -101,8 +101,8 @@ const blogPosts = [
     `
   },
   {
-    id: "ux-review-benefit",
-    title: "The Real Benefit of UX Review for Small Teams",
+    id: "Sample-Blog",
+    title: "Test Title Blog",
     description: "Why a quick UX audit can uncover hidden blockers in early product development.",
     cover: "images/blog/blog-project-brief.jpg",
     tags: ["UX", "Audit"],
