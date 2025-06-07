@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title id="page-title">Loading... | Written by Pian Firmansyah</title>
+    <meta name="description" content="A blog post about design, product thinking, and lessons from real projects." />
+    <!-- Open Graph -->
+    <meta property="og:title" content="Blog – Written by Pian Firmansyah" />
+    <meta property="og:description" content="Insights, stories, and takeaways from my design and product experience." />
+    <meta property="og:image" content="images/blog/default-og.png" />
+    <meta property="og:url" content="https://pian.biz.id/blog-detail.html" />
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Blog – Written by Pian Firmansyah" />
+    <meta name="twitter:description" content="A blog post from my experience in product and design." />
+    <meta name="twitter:image" content="images/blog/default-og.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pian Firmansyah">
+    <link rel="canonical" href="https://www.pian.biz.id/blog.html">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--Isotoe CSS-->
+    <link href="css/isotope.css" rel="stylesheet" type="text/css" />
+    <!--AOS CSS-->
+    <link href="css/aos.css" rel="stylesheet" type="text/css" />
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="preloader"> 
+<!-- Loader -->
+<div id="preloader" class="loading">
+    <div class="logo_cover">
+        <div class="outline_box"></div>
+        <div class="fill_color"></div>
+    </div>
+    <div class="loading-wrapper">
+        <div id="loading-bar">
+            <p id="loading-percent">0%</p>
+        </div>
+    </div>
+</div>
+<div id="boxdasar">
+    <header class="sticky-top border-0">
+        <div class="container d-flex align-items-center"> <!-- keeping old box-center width -->
+            <div class="header-inner d-flex justify-content-between">            
+                <!-- Top Navigation -->
+                <ul class="nav top_nav align-items-center">
+                    <li class="nav-item">
+                        <!-- Logo -->
+                        <a href="index.html" class="d-flex align-items-center brand">
+                            <img src="images/icon_logo.png" alt="Logo" height="50">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://wa.me/6285117622313" target="_blank" class="nav-link text-white d-flex align-items-center">
+                            <img class="me-2" src="images/ic_whatsapp.svg" alt="" width="16"> +62 851 1762 2313
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="mailto:pianfirmansyah92@gmail.com" class="nav-link text-white d-flex align-items-center">
+                            <img class="me-2" src="images/icon-ctc.png" alt=""> pianfirmansyah92@gmail.com
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Back to Top -->
+                <a href="javascript:void(0)" onclick="window.scrollTo({top:0, behavior:'smooth'});" class="btn-back-top text-white d-flex align-items-center">
+                    <img class="me-2" src="images/icon-back_top.png" alt=""> Back to Top
+                </a>
+            </div>
+        </div>
+    </header>     
+	<div class="container">
+        <div class="row">
+            <div id="sidebar" class="sidebar col-3">
+                <div class="box-left">
+                    <div class="sublogo">
+                        <img src="images/img-me.png" class="rounded mx-auto d-block z-4" style="max-width: 180px;" alt=""/>
+                        <div>
+                            <h4><b>Pian</b> Firmansyah</h4>
+                            <span>UI UX Developer, Product Manager</span>
+                        </div>
+                    </div>
+                    <ul id="sidenavbar" class="sideNav d-flex flex-column mt-3 collapse">
+                        <li><a href="index.html"><span>Home <br /><br /> Summary of Me</span></a></li>
+                        <li><a href="my-profile.html"><span>My Profile <br /><br /> Know More About Me</span></a></li>
+                        <li><a href="services.html"><span>Services <br /><br /> Looking for Solution ?</span></a></li>
+                        <li><a href="portofolio.html"><span>Portfolio <br /><br /> Things I’ve Worked On</span></a></li>
+                        <li><a href="blog.html"><span>Blog <br /><br /> Share what I’ve Learned</span></a></li>
+                    </ul>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <a class="btn_grad grad-dark hover-effect" href="images/CV-Portofolio - Pian Firmansyah.pdf" target="_blank" download>
+                            <svg version="1.1" id="ic_doc_cv" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 40">
+                                <path class="st0" d="M7.3,6.8c-1.7,0-3.1,1.4-3.1,3.1v18.7c0,1.3,0,2.2,0.1,2.9c0.1,0.7,0.2,1,0.3,1.3c0.3,0.6,0.8,1,1.3,1.3
+                                    c0.2,0.1,0.6,0.2,1.3,0.3c0.7,0.1,1.6,0.1,2.9,0.1h9.8c1.3,0,2.2,0,2.9-0.1c0.7-0.1,1-0.2,1.3-0.3c0.6-0.3,1-0.8,1.3-1.3
+                                    c0.1-0.2,0.2-0.6,0.3-1.3c0.1-0.7,0.1-1.6,0.1-2.9v-6.4c0-3.4-2.7-6.1-6.1-6.1h-1.1c-2.7,0-5-2.2-5-5c0-2.3-1.9-4.2-4.2-4.2L7.3,6.8
+                                    L7.3,6.8z M11.9,3.7c9.3,0,16.9,7.5,16.9,16.9v8c0,1.2,0,2.3-0.1,3.1c-0.1,0.9-0.2,1.7-0.6,2.4c-0.6,1.2-1.5,2.1-2.7,2.7
+                                    c-0.7,0.4-1.5,0.5-2.4,0.6c-0.8,0.1-1.8,0.1-3.1,0.1H10c-1.2,0-2.3,0-3.1-0.1c-0.9-0.1-1.7-0.2-2.4-0.6c-1.2-0.6-2.1-1.5-2.7-2.7
+                                    c-0.4-0.7-0.5-1.5-0.6-2.4c-0.1-0.8-0.1-1.8-0.1-3.1V9.8c0-3.4,2.7-6.1,6.1-6.1H11.9z M24.1,14.1c-1.8-3.3-4.9-5.9-8.6-6.8
+                                    c0.7,1.1,1,2.4,1,3.8c0,1.1,0.9,1.9,1.9,1.9h1.1C21.2,12.9,22.8,13.3,24.1,14.1z"/>
+                                <g>
+                                    <path class="st1" d="M8.7,32C6.9,32,6,31.3,6,29.8v-3.3c0-1.5,0.8-2.2,2.6-2.2h2.6c0.3,0,0.4,0.1,0.4,0.4v1.3
+                                        c0,0.3-0.1,0.4-0.4,0.4H9.2c-0.5,0-0.7,0.2-0.7,0.5v2.6c0,0.4,0.2,0.5,0.7,0.5h2.2c0.3,0,0.4,0.1,0.4,0.4v1.3
+                                        c0,0.3-0.1,0.4-0.4,0.4H8.7z"/>
+                                    <path class="st1" d="M14.7,32c-0.3,0-0.4-0.1-0.5-0.4L13.1,29c-0.3-0.6-0.3-0.9-0.3-1.5v-2.8c0-0.3,0.1-0.4,0.4-0.4h1.7
+                                        c0.3,0,0.4,0.1,0.4,0.4v3c0,0.2,0,0.3,0.1,0.4l0.5,1.5c0,0.1,0.1,0.2,0.2,0.2h0.1c0.1,0,0.2,0,0.2-0.2l0.5-1.5
+                                        c0.1-0.2,0.1-0.3,0.1-0.4v-3c0-0.3,0.1-0.4,0.4-0.4h1.7c0.3,0,0.4,0.1,0.4,0.4v2.8c0,0.7-0.1,0.9-0.3,1.5l-1.1,2.6
+                                        C18,31.9,17.8,32,17.5,32H14.7z"/>
+                                </g>
+                            </svg>
+                            <b>Download My Resume !!</b>
+                        </a>
+                        <a class="btn" data-bs-toggle="collapse" href="#sidenavbar" role="button" aria-expanded="false" aria-controls="sidenavbar">
+                          <svg id="ic_menu" data-name="ic_menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 533.37 400.07">
+                            <g id="nav_mobile" data-name="nav_mobile">
+                                <path id="Vector" class="ic_nav_mobile" d="M233.33,366.73h266.7M33.33,200.03h466.7M233.33,33.33h266.7"/>
+                            </g>
+                          </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="box-right page-detail" id="blog-content">  
+                    <div class="wrapper-button">
+                        <div class="bar-sidetoggle">
+                            <span>
+                            <button id="sidebar-toggle" class="btn btn-sideToggle">
+                            <svg id="ic_menu" data-name="ic_menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 533.37 400.07">
+                                <g id="nav_mobile" data-name="nav_mobile"><path id="Vector" class="ic_nav_mobile" d="M40.33,366.73h266.7M33.33,200.03h466.7M40.33,33.33h266.7"/></g>
+                            </svg>                              
+                            <img src="images/img-me.png" class="rounded mx-auto" style="max-width: 55px;" alt=""/>
+                            </button>
+                            </span>
+                        </div>
+                    </div>                  
+                    <a class="btn btn-back" href="blog.html">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 219.151 219.151">
+                            <g>
+                                <path d="M109.576,219.151c60.419,0,109.573-49.156,109.573-109.576C219.149,49.156,169.995,0,109.576,0S0.002,49.156,0.002,109.575
+                                C0.002,169.995,49.157,219.151,109.576,219.151z M109.576,15c52.148,0,94.573,42.426,94.574,94.575
+                                c0,52.149-42.425,94.575-94.574,94.576c-52.148-0.001-94.573-42.427-94.573-94.577C15.003,57.427,57.428,15,109.576,15z"/>
+                                <path d="M94.861,156.507c2.929,2.928,7.678,2.927,10.606,0c2.93-2.93,2.93-7.678-0.001-10.608l-28.82-28.819l83.457-0.008
+                                c4.142-0.001,7.499-3.358,7.499-7.502c-0.001-4.142-3.358-7.498-7.5-7.498l-83.46,0.008l28.827-28.825
+                                c2.929-2.929,2.929-7.679,0-10.607c-1.465-1.464-3.384-2.197-5.304-2.197c-1.919,0-3.838,0.733-5.303,2.196l-41.629,41.628
+                                c-1.407,1.406-2.197,3.313-2.197,5.303c0.001,1.99,0.791,3.896,2.198,5.305L94.861,156.507z"/>
+                            </g>
+                        </svg>
+                        <span>Back to List</span>
+                    </a>           
+                    <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">        
+                        <h2 class="title-section text-center" id="blog-name" style="padding-left: 80px;">Loading...</h2>
+                        <p></p>
+                        <div class="d-flex justify-content-between mb-4 blog-info">
+                            <span><img src="images/ic_date_blog.svg" /> <span id="blog-date"></span></span>
+                            <span id="blog-tags"></span>
+                        </div>
+                    </div>
+                    <img id="blog-cover" class="blog-cover img-fluid rounded" src="" alt=""  data-aos="fade-up" data-aos-delay="200" data-aos-duration="800"/>
+                    <div class="blog-wrapper" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
+                        <div id="blog-body" class="blog-body">
+                            
+                        </div>
+                    </div>
+                    <section class="share-section">
+                        <h4>Bagikan Tulisan :</h4>
+                        <div class="share-buttons">
+                            <button id="copy-link-btn">🔗 Copy Link</button>
+                            <a id="twitter-share" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter / X"><img src="images/ic_x_share.svg"></a>
+                            <a id="linkedin-share" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="LinkedIn"><img src="images/ic_linkedin_share.svg"></a>
+                            <a id="whatsapp-share" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="WhatsApp"><img src="images/ic_wa_share.svg"></a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer text-white py-4 z-4">
+    <div class="container">
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <ul class="nav">
+                <li class="nav-item"><a href="index.html" class="nav-link text-white-50 px-2">Home</a></li>
+                <li class="nav-item"><a href="my-profile.html" class="nav-link text-white-50 px-2">My Profile</a></li>
+                <li class="nav-item"><a href="services.html" class="nav-link text-white-50 px-2">Services</a></li>
+                <li class="nav-item"><a href="portofolio.html" class="nav-link text-white-50 px-2">Portfolio</a></li>
+                <li class="nav-item"><a href="blog.html" class="nav-link text-white-50 px-2">Blog</a></li>
+            </ul>
+            <p class="mt-3 mt-md-0 text-white-50">2025 &copy; PFS. Design by yhanzstudio</p>
+        </div>
+    </div>
+</footer>
+<!-- Toast -->
+<div class="toast-container position-fixed bottom-0 start-50 translate-middle-x p-3" style="bottom: 80px !important;">
+  <div id="copyToast" class="toast align-items-center text-bg-dark border-0" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="d-flex">
+      <div class="toast-body">
+        Link copied to clipboard!
+      </div>
+      <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+  </div>
+</div>
+
+<!-- Scripts at the bottom -->
+ <!-- Plugins JS -->
+<script type="text/javascript" src="plugins/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="plugins/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="plugins/aos.js"></script>
+<!-- Load Data -->
+<script type="text/javascript" src="blog-post.js"></script>
+<!-- Script Custom -->
+<script type="text/javascript" src="js/preloader.js"></script>
+<script type="text/javascript" src="js/blog-detail.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZPF3W8YZM5"></script>
+<script>
+  const sidebar = document.getElementById('sidebar');
+  const toggleBtn = document.getElementById('sidebar-toggle');
+
+  toggleBtn.addEventListener('click', () => {
+    sidebar.classList.toggle('active');
+    toggleBtn.classList.toggle('toggle');
+  });
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZPF3W8YZM5');
+</script>
+</body>
+</html>
