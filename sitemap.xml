@@ -1,72 +1,73 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
 <url>
-  <loc>https://www.pian.biz.id/</loc>
-  <lastmod>2025-05-28T03:10:55+00:00</lastmod>
-  <priority>1.00</priority>
+<loc>https://pian.biz.id/</loc>
+<lastmod>2025-06-08T03:34:52+00:00</lastmod>
+<priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.pian.biz.id/my-profile</loc>
-  <lastmod>2025-05-28T03:10:55+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://pian.biz.id/my-profile</loc>
+<lastmod>2025-06-08T03:34:52+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.pian.biz.id/services</loc>
-  <lastmod>2025-05-28T03:10:55+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://pian.biz.id/services</loc>
+<lastmod>2025-06-08T03:34:52+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.pian.biz.id/portofolio</loc>
-  <lastmod>2025-05-28T03:10:55+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://pian.biz.id/portofolio</loc>
+<lastmod>2025-06-08T03:34:52+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.pian.biz.id/images/CV-Portofolio%20-%20Pian%20Firmansyah.pdf</loc>
-  <lastmod>2025-05-28T03:10:55+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://pian.biz.id/blog</loc>
+<lastmod>2025-06-08T03:34:52+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.pian.biz.id/portofolio-detail?id=anteraja</loc>
-  <lastmod>2025-05-28T03:10:55+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://pian.biz.id/images/CV-Portofolio%20-%20Pian%20Firmansyah.pdf</loc>
+<lastmod>2025-06-08T03:34:52+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.pian.biz.id/portofolio-detail?id=sikepo</loc>
-  <lastmod>2025-05-28T03:10:55+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://pian.biz.id/portofolio-detail?id=anteraja</loc>
+<lastmod>2025-06-08T03:34:52+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.pian.biz.id/portofolio-detail?id=covidsystem</loc>
-  <lastmod>2025-05-28T03:10:55+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://pian.biz.id/portofolio-detail?id=sikepo</loc>
+<lastmod>2025-06-08T03:34:52+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.pian.biz.id/portofolio-detail?id=yukbid</loc>
-  <lastmod>2025-05-28T03:10:55+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://pian.biz.id/portofolio-detail?id=covidsystem</loc>
+<lastmod>2025-06-08T03:34:52+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.pian.biz.id/portofolio-detail?id=ezdealer</loc>
-  <lastmod>2025-05-28T03:10:55+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://pian.biz.id/portofolio-detail?id=yukbid</loc>
+<lastmod>2025-06-08T03:34:52+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.pian.biz.id/portofolio-detail?id=dmssfa</loc>
-  <lastmod>2025-05-28T03:10:55+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://pian.biz.id/portofolio-detail?id=ezdealer</loc>
+<lastmod>2025-06-08T03:34:52+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.pian.biz.id/portofolio-detail?id=radyadigital</loc>
-  <lastmod>2025-05-28T03:10:55+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://pian.biz.id/portofolio-detail?id=dmssfa</loc>
+<lastmod>2025-06-08T03:34:52+00:00</lastmod>
+<priority>0.80</priority>
 </url>
-
-
+<url>
+<loc>https://pian.biz.id/portofolio-detail?id=radyadigital</loc>
+<lastmod>2025-06-08T03:34:52+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://pian.biz.id/blog-detail.html?id=project-brief</loc>
+<lastmod>2025-06-08T03:34:52+00:00</lastmod>
+<priority>0.80</priority>
+</url>
 </urlset>
