@@ -1,0 +1,19 @@
+[
+{
+  "id": "project-brief",
+  "title": "Mahamin Project Brief Nggak Harus Ribet (Tapi Jangan Ngasal Juga)",
+  "description": "Sering banget nemu brief yang keliatannya jelas, tapi ternyata butuh digali lagi. Di sini, saya coba share gimana proses saya mahaminnya",
+  "cover": "images/blog/blog-project-brief.jpg",
+  "tags": ["UX", "Brief", "Requirement"],
+  "date": "2024-06-05",    
+  "contentFile": "content/project-brief.html"
+},
+{
+  "id": "Sample-Blog",
+  "title": "Test Title Blog",
+  "description": "Why a quick UX audit can uncover hidden blockers in early product development.",
+  "cover": "images/blog/blog-project-brief.jpg",
+  "tags": ["UX", "Audit"],
+  "date": "2024-06-08"
+}
+]
