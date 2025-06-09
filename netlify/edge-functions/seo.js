@@ -10,11 +10,11 @@ export default async (request, context) => {
   let htmlUrl = "";
   let type = "";
 
-  if (pathname.includes("blog-detail.html")) {
+  if (pathname.includes("blog-detail")) {
     jsonUrl = `${base}/data/blog-posts.json`;
     htmlUrl = `${base}/blog-detail.html`;
     type = "blog";
-  } else if (pathname.includes("portfolio-detail.html")) {
+  } else if (pathname.includes("portfolio-detail")) {
     jsonUrl = `${base}/data/portfolio-posts.json`;
     htmlUrl = `${base}/portfolio-detail.html`;
     type = "portfolio";

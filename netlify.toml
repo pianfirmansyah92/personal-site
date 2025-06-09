@@ -2,7 +2,16 @@
   publish = "."
 
 [[edge_functions]]
+  path = "/blog-detail"
+  function = "seo"
+
+[[edge_functions]]
   path = "/blog-detail.html"
+  function = "seo"
+
+
+[[edge_functions]]
+  path = "/portfolio-detail"
   function = "seo"
 
 [[edge_functions]]
