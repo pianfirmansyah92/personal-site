@@ -1,19 +1,20 @@
 [
 {
+  "id": "analyze-design",
+  "title": "Analyze & Design: Dari Masalah ke Solusi yang Relevan",
+  "description": "Desain yang bagus itu bukan soal warna atau layout dulu. Tapi soal seberapa dalam kita bisa ngerti masalah yang mau diselesaikan.",
+  "cover": "images/blog/blog-analyze-design.jpg",
+  "tags": ["UX", "Analysis", "User Flow"],
+  "date": "2025-06-15",
+  "contentFile": "content/analyze-design.html"
+},
+{
   "id": "project-brief",
   "title": "Mahamin Project Brief Nggak Harus Ribet (Tapi Jangan Ngasal Juga)",
   "description": "Sering banget nemu brief yang keliatannya jelas, tapi ternyata butuh digali lagi. Di sini, saya coba share gimana proses saya mahaminnya",
   "cover": "images/blog/blog-project-brief.jpg",
   "tags": ["UX", "Brief", "Requirement"],
-  "date": "2024-06-05",    
+  "date": "2025-06-06",    
   "contentFile": "content/project-brief.html"
-},
-{
-  "id": "Sample-Blog",
-  "title": "Test Title Blog",
-  "description": "Why a quick UX audit can uncover hidden blockers in early product development.",
-  "cover": "images/blog/blog-project-brief.jpg",
-  "tags": ["UX", "Audit"],
-  "date": "2024-06-08"
 }
 ]

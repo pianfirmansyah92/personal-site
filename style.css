@@ -2042,6 +2042,9 @@ h1, h2, h3,h4, h5, h6{
 .blog-body blockquote b{
   color: #312e2e;
 }
+.blog-body p a{
+	text-decoration: underline;
+}
 .blog-body table{
   font-size: 1rem;
   line-height: 1.8rem;

@@ -1,0 +1,139 @@
+<blockquote><em>"Desain yang bagus itu bukan soal warna atau layout dulu. Tapi soal seberapa dalam kita ngerti masalahnya."</em></blockquote>
+<p>Di tulisan sebelumnya, kita udah ngobrolin soal gimana memahami project brief dan bedain antara keinginan klien dan kebutuhan user. Sekarang, kita mulai masuk ke bagian serunya: ngebentuk alur pikir buat nyari solusi yang tepat dan gimana akhirnya solusi itu berubah jadi desain yang bisa dipakai.</p>
+<p>Tulisan ini bukan buat ngajarin tools tertentu ya. tapi lebih ke konsep atau proses berpikir. Biar pas kamu pegang brief yang udah mulai jelas, kamu bisa:</p>
+<ul class="my-2">
+  <li><p>Menyusun alur informasi dan logika user</p></li>
+  <li><p>Mastiin semuanya masuk akal dari sisi kebutuhan,</p></li>
+  <li><p>Dan nyiapin desain dengan dasar yang kuat.</p></li>
+</ul>
+<p>Proses ini juga sering dipakai dalam pendekatan kayak <b>Design Thinking</b> atau <b>Double Diamond</b>. Tapi kita nggak akan bahas istilah-istilah itu sekarang. Fokus kita lebih ke gimana cara nerapinnya langsung di lapangan.</p>
+<br />
+<p>Kalau kamu penasaran soal pendekatannya, tinggal <em>chatgpt-in aja</em> ya.</p>
+<br />
+<p>Sekarang, yuk lanjut ke ngapain aja sih di proses <b>Analyze & Design</b>.</p>
+<hr class="my-4" />
+<h3>1. Breakdown Brief → Masalah Nyata</h3>
+<p>Di tahapan project brief yang udah kamu lakukan sebelumnya, pasti ada beberapa jawaban dari setiap pertanyaan eksplorasi yang muncul. Nah, setelah kamu pahami atau analisa jawaban-jawabannya, biasanya akan muncul beberapa asumsi yang perlu divalidasi.</p>
+<br />
+<p>Asumsi ini jadi titik awal buat memahami:</p>
+<ul class="my-2">
+  <li><p>Masalah apa yang sebenernya mau diselesain?</p></li>
+  <li><p>Apakah ini soal efisiensi(yang lagi rame), pengalaman user, atau proses bisnis?</p></li>
+  <li><p>Atau bisa jadi klien kamu visioner langsung minta bikin produk tanpa tau masalahnya ada atau engga, bisa jadi masalahnya muncul di tahun depan kan? siapa yang tau.</p></li>
+</ul>
+<br />
+<p>Misalnya, dari brief muncul pernyataan seperti ini</p>
+<blockquote><em>"Kita mau bikin dashboard buat tim sales(si paling superb tim)."</em></blockquote>
+<p>Lalu kita coba gali dan dapat beberapa asumsi dan kamu bisa mengidentifikasi:</p>
+<ul class="my-2">
+  <li><p>Dashboard ini kemungkinan besar dipakai oleh manajer untuk monitoring performa, bukan sekadar pencatatan.</p></li>
+  <li><p>Data utamanya berasal dari laporan mingguan dan update dari tim lapangan.</p></li>
+  <li><p>Akses kebanyakan dilakukan via desktop karena digunakan saat meeting atau review mingguan.</p></li>
+</ul>
+<br />
+<p>Setelah asumsi dasar mulai teridentifikasi dimulai dari siapa user-nya, konteks penggunaan, dan device yang mereka pakai. sekarang waktunya konfirmasi dan memperjelas kebutuhan yang relevan. Ini jadi bagian penting dalam validasi, bukan cuma soal fungsionalitas, tapi juga buat ngunci keputusan desain sebelum lanjut ke tahap alur dan interaksi.</p>
+<hr class="my-4" />
+<h3>2. Bangun Kerangka Pikir: Alur dan Logika</h3>
+<p>Setelah kebutuhan sudah relevan dan mulai kebayang, saatnya mulai menyusun struktur logika dan alur yang bisa menjawab kebutuhan itu. Di tahap ini, kamu nggak langsung mikirin bentuk desain, tapi gimana cara sistem atau aplikasi ini akan bekerja dari sudut pandang user.</p>
+<br />
+<p>Biasanya, orang pakai beberapa metode buat nyusun alur solusi. Masing-masing punya kekuatan dan batasnya sendiri:</p>
+<ul class="my-2">
+  <li><p><b>Mind Mapping</b> cocok buat eksplorasi awal karena fleksibel dan bisa nampilin hubungan antar ide secara bebas. Tapi kadang terlalu bebas sampai kurang terstruktur.</p></li>
+  <li><p><b>Journey Mapping</b> pas banget kalau kamu fokus ke pengalaman user dari awal sampai akhir. Tapi effort-nya lumayan, dan nggak semua project butuh sedetail itu.</p></li>
+  <li><p><b>Flow Diagram</b> lebih teknis dan terstruktur, bagus buat nentuin step proses atau logika sistem. Tapi nggak nunjukin perasaan atau pengalaman si user secara emosional.</p></li>
+</ul>
+<br />
+<p>Fokus kita di sini adalah Flow Diagram, karena paling cocok buat konteks alur proses dan kebutuhan teknis. Flow diagram ini bisa jadi cara yang simpel tapi powerful buat ngebentuk alur berpikir yang jelas:</p>
+<ul class="my-2">
+  <li><p>Dari mana user mulai?</p></li>
+  <li><p>Apa yang terjadi kalau dia klik A, masuk ke fitur B?</p></li>
+  <li><p>Apa yang terjadi kalau gagal?</p></li>
+</ul>
+<br />
+<p>Contoh sederhana:</p>
+<center><img src="images/blog/insideBlog-image-navigation-flow.png" alt="Flow Navigation" class="my-2" /></center>
+<p>Flow kayak gini ngebantu kamu dan tim project ngerti apa yang perlu dirancang, dibangun, dan diuji. Tapi….  Flow Diagram aja belum cukup. Kita perlu pastiin juga alur itu bisa berjalan dalam berbagai kondisi nyata. Nah, di sinilah skenario dan wireframe masuk.</p>
+<hr class="my-4" />
+<h3>3. Uji Logika Lewat Skenario</h3>
+<p>Setelah alur dasar kebentuk, langkah selanjutnya adalah menguji logikanya dengan membuat skenario-skenario penggunaan. Tujuannya adalah melihat apakah alur yang kamu buat benar-benar bekerja dalam konteks nyata:</p>
+<br />
+<p>Beberapa contoh skenario:</p>
+<ul class="my-2">
+  <li><p>"Gimana kalau user gagal login?"</p></li>
+  <li><p>"Kalau dia belum punya data sama sekali, apa yang dilihat?"</p></li>
+  <li><p>"Kalau admin buka dashboard, datanya beda nggak?"</p></li>
+</ul>
+<center><img src="images/blog/insideBlog-image-meme-user-flow.jpg" alt="Batman Robin Hood - User Test Navigation Flow" class="my-2" /></center>
+<p>Tambahkan dua pendekatan:</p>
+<ul class="my-2">
+  <li><p>Skenario Positif (user berhasil menyelesaikan task sesuai alur),</p></li>
+  <li><p>Skenario Negatif (user gagal, salah klik, atau tidak mendapat hasil sesuai harapan).</p></li>
+</ul>
+<br />
+<p>Dengan skenario ini, kamu bisa:</p>
+<ul class="my-2">
+  <li><p>Menemukan celah dalam alur yang belum terpikir sebelumnya,</p></li>
+  <li><p>Memastikan setiap kondisi memiliki respons atau solusi yang tepat,</p></li>
+  <li><p>Menyusun logika error handling dan empty state lebih realistis,</p></li>
+  <li><p>Mengantisipasi edge case yang bisa bikin UX jadi buruk.</p></li>
+</ul>
+<br />
+<p>Kamu bisa diskusikan hasil skenario ini bareng tim developer atau QA untuk memastikan sistem berjalan sesuai ekspektasi, bahkan sebelum desain visual dibuat.</p>
+<hr class="my-4" />
+<h3>4. Siapkan Wireframe Kasar</h3>
+<p>Wireframe itu bukan sekadar sketsa, tapi jembatan logika ke visual. Di titik ini, kamu udah punya cukup bahan buat mulai menuangkannya ke dalam bentuk visual dan dapat segera jadi topik pembahasan ke tim project. </p>
+<br />
+<p>Alih-alih langsung loncat ke desain High Fidelity, kamu bisa mulai dari wireframe dulu. Ini penting karena proses approval desain sering kali nggak semulus yang dibayangin revisi bisa datang dari mana aja. Dengan wireframe, kamu bisa ngetes alur dan struktur lebih cepat tanpa ribet mikirin estetika. Misalnya:</p>
+<ul class="my-2">
+  <li><p>Menyusun hirarki informasi secara jelas,</p></li>
+  <li><p>Mengalokasikan ruang antar elemen dengan efisien,</p></li>
+  <li><p>Dan ngecek ulang logika interaksi sebelum terlalu jauh.</p></li>
+</ul>
+<br />
+<p>Karena bentuknya masih kasar dan cepat dibuat, wireframe sangat efektif buat validasi awal, baik ke tim internal maupun stakeholder. Fokusnya bukan di estetika, tapi di struktur, alur, dan fungsionalitas. Ini bikin diskusi jadi lebih objektif dan efisien.</p>
+<p>Misalnya, kamu bisa mulai dari hal paling dasar:</p>
+<ul class="my-2">
+  <li><p>Navigasi di posisi atas atau samping?</p></li>
+  <li><p>Area utama apa dibuat tabel, grafik, atau form?</p></li>
+  <li><p>Tombol utama harus muncul di mana biar gampang diakses?</p></li>
+</ul>
+<p>Kalau sempat, tambahkan anotasi:</p>
+<p>"Di sini ada notifikasi error kalau input kosong."</p>
+<br />
+<p>Hal-hal kecil seperti ini bisa jadi bahan diskusi penting saat evaluasi. Di sinilah proses iterasi dimulai dari apa yang sudah kamu rancang, diuji, dan terus dikembangkan.</p>
+<p>Untuk kamu yang baru mulai, bisa lihat contoh tampilan wireframe sederhana di sini: <a href="https://uxdesign.cc/how-to-start-sketching-and-wireframing-84a821f092e2" target="_blank">Contoh Wireframe via UX Collective</a></p>
+<hr class="my-4" />
+<h3>5. Iterasi Awal</h3>
+<p>Setelah wireframe diuji lewat skenario dan dibahas bareng tim, biasanya akan muncul banyak insight baru. Ini bukan tanda bahwa desainmu salah, justru sebaliknya ini tanda kamu mulai melihat desain sebagai proses berpikir, bukan hasil akhir.</p>
+<p>Iterasi awal sangat penting untuk:</p>
+<ul class="my-2">
+  <li><p>Menyempurnakan logika alur berdasarkan feedback nyata,</p></li>
+  <li><p>Menyesuaikan elemen visual dengan kebutuhan fungsional,</p></li>
+  <li><p>Dan memastikan bahwa desain bisa dikerjakan oleh tim dev secara realistis.</p></li>
+</ul>
+<p>Misalnya:</p>
+<ul class="my-2">
+  <li><p>Setelah tes skenario, kamu sadar kalau tombol “Tambah Data” terlalu kecil dan sering terlewat.</p></li>
+  <li><p>Developer bilang: validasi form di halaman edit belum masuk ke logika backend.</p></li>
+  <li><p>PM mengusulkan agar status data juga muncul di tampilan list untuk efisiensi.</p></li>
+</ul>
+<p>Simpan setiap perubahan versi entah pakai fitur versioning di Figma, Notion log, atau dokumentasi manual. Ini ngebantu tim ngerti kenapa perubahan dilakukan, dan mempermudah review di masa depan.</p>
+<br />
+<p>Iterasi ini nggak harus nunggu semua stakeholder kumpul. Kadang, diskusi 15 menit bareng developer atau copywriter aja bisa membuka banyak kemungkinan baru.</p>
+<p>Dan yang paling penting:</p>
+<blockquote>Lakukan iterasi ketika masih murah untuk berubah, sebelum masuk ke desain visual yang lebih kompleks.</blockquote>
+<p>Dengan pondasi ini, kamu masuk ke tahap desain UI dengan arah yang jelas, logika yang udah teruji, dan kepercayaan diri bahwa tiap elemen ada alasannya. Jadi kalo di tanya product owner atau stakeholder alasan visualnya ini itu kamu bisa yakin buat jelasin.</p>
+<hr class="my-4" />
+<h3>Penutup: Desain Bukan Soal Rasa, Tapi Alur Pikir</h3>
+<p>Desain bukan cuma soal estetika, tapi soal gimana kamu memahami masalah dan nyusun solusi yang relevan dan bisa dipakai.</p>
+<p>Kita tadi udah ngelewatin beberapa tahapan penting:</p>
+<ul class="my-2">
+  <li><p><b>Breakdown brief:</b> Menemukan asumsi dan mulai validasi kebutuhan nyata.</p></li>
+  <li><p><b>Bangun kerangka pikir:</b> Nyusun alur logika lewat flow diagram biar solusi makin jelas.</p></li>
+  <li><p><b>Uji skenario:</b> Ngetes alur dengan konteks nyata, baik berhasil maupun gagal.</p></li>
+  <li><p><b>Wireframe kasar:</b> Bikin versi awal buat bantu validasi cepat dan diskusi bareng tim.</p></li>
+  <li><p><b>Iterasi awal:</b> Revisi berdasarkan feedback sebelum masuk ke desain visual.</p></li>
+</ul>
+<p>Kelihatannya emang panjang. Tapi kalo kamu udah terbiasa, semua ini bisa dijalani cepat bahkan dalam 1 sprint atau beberapa hari aja, tergantung skala project dan kolaborasi tim.</p>
+<br />
+<p>Yang penting, kamu ngerti dulu  bahwa fondasi desain dibangun dari cara berpikir yang sistematis. Ketika alur dan logikanya udah kuat, urusan visual nanti bakal jauh lebih mudah dan minim revisi.</p>
