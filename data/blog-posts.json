@@ -1,5 +1,14 @@
 [
 {
+  "id": "study-case-sikepo",
+  "title": "Studi Kasus: SIKePO — Akses Regulasi Lebih Ramah lewat Smartphone",
+  "description": "Regulasi perbankan sering kali terasa berat dan teknis. Padahal, user yang butuh informasi ini nggak cuma dari tim legal, tapi...",
+  "cover": "images/blog/blog-case-sikepo.jpg",
+  "tags": ["StudyCase", "UX", "Government"],
+  "date": "2025-06-28",    
+  "contentFile": "content/study-case-sikepo.html"
+},
+{
   "id": "analyze-design",
   "title": "Analyze & Design: Dari Masalah ke Solusi yang Relevan",
   "description": "Desain yang bagus itu bukan soal warna atau layout dulu. Tapi soal seberapa dalam kita bisa ngerti masalah yang mau diselesaikan.",

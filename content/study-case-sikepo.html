@@ -1,0 +1,71 @@
+<blockquote><em>"Bikin regulasi itu sulit, tapi bukan berarti akses ke regulasi juga harus sulit."</em></blockquote>
+<p>Regulasi perbankan sering kali terasa berat dan teknis. Padahal, user yang butuh informasi ini nggak cuma dari tim legal, tapi juga pelaku industri fintech dan perbankan. Itulah tantangan utama dari proyek ini: <b>bikin regulasi yang berat jadi lebih mudah dicari dan diakses langsung dari smartphone.</b></p>
+<hr class="my-4" />
+<h3>1. Latar Belakang Proyek</h3>
+<p>Kadang, inisiatif bikin aplikasi nggak selalu datang dari kebutuhan user langsung, SIKePO salah satunya.</p>
+<br />
+<p><b>SIKePO (Sistem Informasi Ketentuan Perbankan Online)</b> awalnya cuma tersedia dalam versi web, yang tampilannya basic dan kurang nyaman diakses dari smartphone. Padahal, mayoritas penggunanya orang-orang dari industri perbankan dan fintech yang udah terbiasa pakai perangkat mobile untuk cari informasi cepat.</p>
+<br />
+<p>Berangkat dari situ, tim internal OJK memutuskan buat bikin versi mobile-nya. Tujuannya simpel: <b>aksesibilitas</b>. Supaya regulasi perbankan bisa dibuka kapan aja, langsung dari HP, tanpa harus buka browser dan zoom-in atau geser kiri kanan ke tabel panjang.</p>
+<br />
+<p>Saya dipercaya buat bantu rancang pengalaman pengguna untuk versi mobile-nya. Fokusnya: <b>bikin regulasi yang panjang, padat, dan teks banget, tetap bisa dibaca nyaman di layar kecil.</b></p>
+<hr class="my-4" />
+<h3>2. Tantangan: Bukan Redesign, Tapi Bikin Baru di Layar Kecil</h3>
+<p>Yang menarik dari proyek ini: kita nggak nge-revamp web yang ada, tapi langsung bikin mobile app dari nol. Web-nya tetap seperti itu, dan memang sengaja nggak disentuh karena keterbatasan budget dan ruang lingkup proyek.</p>
+<br />
+<p>Artinya, kita harus mulai dari versi yang table-heavy, dengan struktur yang sebenarnya belum optimal, lalu menerjemahkannya ke dalam pengalaman mobile.</p>
+<br />
+<p>Beberapa tantangan utama yang muncul:</p>
+<ul class="my-2">
+  <li><p><b>Konten full-text yang sangat panjang.</b> Bayangin baca regulasi keuangan bukan artikel lifestyle.</p></li>
+  <li><p><b>Tanpa riset user.</b> Semua keputusan berbasis input stakeholder dan asumsi tim internal.</p></li>
+  <li><p><b>Navigasi data yang rumit.</b> Karena regulasi bukan cuma satu dua, tapi ratusan.</p></li>
+  <li><p><b>Perlu solusi ringan dan cepat.</b> Karena ini mobile app, loading dan performa juga jadi concern.</p></li>
+</ul>
+<br />
+<p>Jadi, tantangannya bukan hanya "gimana bikin desain bagus", tapi lebih ke: Gimana bikin sesuatu yang tetap berguna, terbaca, dan masuk akal dengan batasan konten yang berat dan tanpa insight dari user langsung?</p>
+<hr class="my-4" />
+<h3>3. Pendekatan Desain: Bikin Berat Jadi Ringan</h3>
+<p>Karena kita nggak punya data user langsung, pendekatan desain harus banyak ngandelin logika, empati, dan eksplorasi struktur informasi. Bukan soal “gimana tampilannya keren”, tapi gimana bikin regulasi yang panjang itu bisa cepat dicari, dan enak dibaca di layar kecil.</p>
+<br />
+<p>Beberapa keputusan utama dalam desain:</p>
+<ul class="my-2">
+  <li><p><b>Gunakan sistem tagging.</b> Ini fitur kunci. Karena regulasinya banyak dan kompleks, tagging jadi cara paling cepat buat bantu user cari berdasarkan topik atau kategori.</p></li>
+  <li><p><b>Fokus ke search dan filter.</b> Karena user masuk dengan tujuan jelas (mau cari regulasi tertentu), desain langsung dorong ke fitur pencarian dan penyaringan, bukan home yang ramai.</p></li>
+  <li><p><b>Teks yang ramah di mobile.</b> Font-nya disesuaikan buat nyaman dibaca, jarak antar paragraf diatur biar nggak padat. Bahkan diatur semacam anchor supaya scroll jadi lebih terarah.</p></li>
+  <li><p><b>Navigasi minimalis.</b> Cuma ada beberapa tab utama: cari regulasi, kategori regulasi, akses regulasi terbaru, dan Statistik.</p></li>
+</ul>
+<br />
+<p>Seluruh pendekatan desain ini dikerjakan lewat Adobe XD, lalu didiskusikan dalam sprint lewat Basecamp. Iterasinya berlangsung cepat karena format wireframe dan prototype langsung dipakai buat review bareng stakeholder.</p>
+<hr class="my-4" />
+<h3>4. Proses di Balik Layar: Dari Kickoff Sampai Iterasi</h3>
+<center><img src="images/blog/insideBlog-image-lofi.jpg" alt="Low Fidelity - Sikepo" class="my-2 rounded" /></center>
+<p>Project SIKePO ini berjalan dengan struktur yang cukup ringkas tapi tetap terkontrol. Meski skalanya nasional, fokus project hanya untuk versi mobile dan tidak menyentuh redesign web.</p>
+<br />
+<p>Berikut garis besar proses di dalamnya:</p>
+<ul class="my-2">
+  <li><p><b>Kickoff dari stakeholder → langsung brief ke designer.</b> Brief datang cukup jelas: “buat versi mobile dari website SIKePO supaya lebih mudah diakses, terutama buat user yang sering cari regulasi lewat smartphone.”</p></li>
+  <li><p><b>Validasi kebutuhan dilakukan lewat diskusi tim & stakeholder.</b> Karena tidak ada fase riset pengguna secara khusus, pemahaman terhadap kebutuhan user dibentuk lewat eksplorasi internal, arahan stakeholder, dan pengalaman tim menangani konten serupa.</p></li>
+  <li><p><b>Mapping konten dari versi web ke struktur mobile.</b> Konten regulasi yang awalnya berbasis tabel web disesuaikan ke tampilan mobile yang lebih fleksibel. Elemen-elemen seperti tag, kategori, dan navigasi diatur ulang agar tetap ringkas tapi mudah digunakan.</p></li>
+  <li><p><b>Proses desain dilakukan kolaboratif via Basecamp.</b> Iterasi desain dikerjakan di Adobe XD dan dikirim secara berkala untuk direview lewat Basecamp. Komunikasi singkat tapi intens jadi kunci kelancaran proses ini.</p></li>
+  <li><p><b>Penyesuaian desain dilakukan per bagian, bukan sekaligus.</b> Karena konten sangat kaya teks, tim fokus menyempurnakan tiap bagian—mulai dari kategori, fitur pencarian, tampilan hasil regulasi, hingga halaman detail.</p></li>
+</ul>
+<br />
+<p>Durasi keseluruhan project ini sekitar <b>6 bulan</b>, tapi proses desainnya sendiri rampung dalam waktu <b>±1.5 bulan</b>. Proses cepat ini dimungkinkan karena scope-nya jelas dan komunikasi tim yang solid.</p>
+<hr class="my-4" />
+<h3>5. Hasil Akhir dan Peluncuran</h3>
+<center><img src="images/blog/insideBlog-image-hifi.png" alt="High Fidelity - Sikepo" class="my-2 rounded" /></center>
+<p>Aplikasi SIKePO kini sudah tersedia di <b>Play Store</b> dan <b>App Store</b>, dan menjadi jalur baru untuk publik dalam mengakses regulasi OJK.</p>
+<p>Fitur utama:</p>
+<ul class="my-2">
+  <li><p>Pencarian regulasi dengan filter dan tagging</p></li>
+  <li><p>Lihat regulasi per kategori</p></li>
+  <li><p>Statistik penggunaan</p></li>
+</ul>
+<hr class="my-4" />
+<h3>Penutup</h3>
+<p>Desain bukan cuma soal tampilan menarik, tapi soal menyederhanakan akses dan pengalaman user—terutama kalau kontennya seberat regulasi perbankan. Dari proyek ini, saya belajar bahwa bahkan dengan keterbatasan waktu dan informasi, solusi yang relevan tetap bisa dicapai lewat fokus dan kolaborasi yang tepat.</p>
+<br />
+<p>Kalau kamu penasaran seperti apa hasil akhir dan proses lengkap desain aplikasi SIKePO, bisa langsung cek di halaman portofolio saya, Saya dokumentasikan proses dan keputusan desainnya secara lebih visual di sana. Siapa tahu bisa jadi referensi buat project kamu berikutnya</p>
+<br />
+<p><a href="https://pian.biz.id/portfolio-detail?id=sikepo" class="btn btn-md btn-light px-8" target="_blank">Lihat Project SIKePO disini</a></p>
