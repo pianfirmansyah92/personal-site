@@ -12,25 +12,25 @@
     "year": "2019",
     "duration": "6 Bulan",
     "client": "OJK",
-    "overview": "SIKePO adalah proyek dari OJK untuk menyediakan akses regulasi dan dokumen hukum ke publik dalam bentuk aplikasi mobile. Tantangannya adalah menyederhanakan navigasi dokumen yang rumit dan membuatnya dapat diakses oleh pengguna umum.",
-    "problem": "Banyak pengguna merasa kesulitan menavigasi ribuan dokumen yang sebelumnya hanya tersedia di versi desktop. Informasi yang dibutuhkan sulit ditemukan karena struktur arsip yang tidak ramah pengguna.",
+    "overview": "SIKePO is a regulation search platform developed for OJK (Indonesia’s Financial Services Authority). It allows banking and financial institution staff to efficiently search, browse, and understand financial regulations by topic, tag, or type. The goal was to improve accessibility and comprehension of complex regulatory content.",
+    "problem": "OJK’s existing SIKePO platform was only available on desktop web, making it difficult for users to access regulatory information on the go. The user experience was also hindered by the need to fill multiple input fields just to perform a search, which slowed users down. a feature we introduced in the mobile version to improve discoverability and filtering. This led to delays in finding the right regulations and a high reliance on manual assistance from OJK personnel.",
     "approachList": [
-      "Melakukan studi UX terhadap pengguna internal dan eksternal.",
-      "Mendesain ulang informasi arsitektur agar lebih mudah dimengerti.",
-      "Membuat prototipe interaktif untuk uji coba sebelum implementasi."
+      "Conducted stakeholder interviews to understand how regulations are used in the field and identify friction points in the existing web-based system.",
+      "Facilitated iterative design reviews with both business stakeholders and potential users to validate early concepts.",
+      "Managed design iterations based on stakeholder feedback and usability findings, ensuring alignment between usability and content accuracy."
     ],
     "decisionList": [
-      "Membuat filter dan pencarian canggih berdasarkan topik dan tahun.",
-      "Menambahkan fitur bookmark dan dokumen terakhir dibuka.",
-      "Memastikan konten dapat diakses offline untuk wilayah dengan internet terbatas."
+      "Simplified the search process by reducing complex multi-field forms into a streamlined, mobile-friendly search flow.",
+      "Introduced a tagging system to help users explore regulations by topic or type, a key feature missing in the web version.",
+      "Adapted the information architecture and layout for small screens, maintaining clarity while supporting document depth and cross-navigation."
     ],
     "reflection": "Melalui proyek ini saya belajar tentang pentingnya mengkomunikasikan informasi kompleks secara visual dan bagaimana mendesain untuk kebutuhan aksesibilitas.",
-    "roleTitle": "Kontribusi Saya",
+    "roleTitle": "UI UX Designer",
     "roleList": [
-      "UX Research (Interview, survey, affinity mapping)",
-      "Information Architecture",
-      "Wireframing & Prototyping",
-      "User Testing"
+      "Led UX design from analysis to wireframes and high-fidelity UI.",
+      "Mapped user journeys and translated regulatory discovery flows into intuitive search and browse experiences.",
+      "Collaborated with stakeholders to identify pain points in existing workflows and define user goals.",
+      "Worked closely with developers to ensure smooth handoff and interaction fidelity during implementation"
     ],
     "features": [
       { "src": "images/ic_news.svg", "title": "Media Information" },
